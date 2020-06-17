@@ -91,7 +91,7 @@ int search(struct node * graph[], int n){
 void main(){
     int n;
     scanf("%d", &n);
-    struct node * graph[10];
+    struct node * graph[n];
     for (int i = 0; i < n; i++){
         graph[i] = start_node(i); 
     }
