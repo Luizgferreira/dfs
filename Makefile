@@ -1,4 +1,4 @@
 all:
-	gcc -o ./ativ3 ./ativ.c
+	gcc ativ.c dfs_functions.c -o ativ3
 run:
 	./ativ3
